@@ -20,7 +20,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding:20px 20px 20px 100px;
+    padding:20px 20px 100px 100px;
 }
 .body-first>div{
   flex:1;
@@ -35,7 +35,7 @@ ul.moving-bar-items{
   display: flex;
   justify-content: space-evenly;
   animation: scrollItems 60s linear infinite;
-  margin: 0 0;
+  margin: 0;
 }
 @keyframes scrollItems {
   0% {
@@ -258,3 +258,20 @@ ul.moving-bar-items>li::before{
   color: aliceblue;
   font-size: small;
 }
+.body-seconddiv{
+  box-shadow: 0 10px 10px rgb(65, 60, 60);
+} 
+.body-second div p{
+  text-transform: uppercase;
+  text-align: center;
+}
+.img-banner img{
+  display: inline-block;
+  width: 120px;
+}
+.img-banner{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
