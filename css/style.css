@@ -220,3 +220,25 @@ ul.moving-bar-items>li::before{
   color:#f7ac18;
   margin-left: 10px;
 }
+.second-section ul li{
+  list-style-type: none;
+  color: white;
+  font-weight: bold;
+  line-height: 1cm;
+  margin-top: 0;
+
+}
+.second-section ul li span{
+    display: inline-block;
+    vertical-align: middle;
+    width: 23px;
+    height:18px;
+    border-radius: 50%;
+    border: 1px solid green;
+    background-color: green;
+    text-align: center;
+    font-size: 22px;
+    margin-right: 15px;
+    color:#912700;
+    padding-bottom: 15px;
+}
