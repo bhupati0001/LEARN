@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Open+Sans&family=Shadows+Into+Light&display=swap');
+
+
+body{
+  margin:0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.wrapper{
+  width: 100%;
+  padding:0;
+  margin: 0;
+}
+
+.body-first{
+    background-image: url(../img/banner-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding:20px 20px 20px 100px;
+}
+.body-first>div{
+  flex:1;
+}
+
+.moving-bar{
+    background-color: darkred;
+    overflow: hidden;
+    white-space: nowrap;
+}
+ul.moving-bar-items{
+  display: flex;
+  justify-content: space-evenly;
+  animation: scrollItems 60s linear infinite;
+  margin: 0 0;
+}
+@keyframes scrollItems {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+ul.moving-bar-items>li{
+    color:aliceblue;
+    font-size:15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 8px 24px 8px 0;
+    accent-color: orange;
+}
+ul.moving-bar-items>li::before{
+  content: "\2022";
+  color: red;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+}
+
+.body-first-images{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.body-first-images img:first-child{
+  width: auto;
+  height: 500px;
+}
+.body-first-images img:last-child{
+  width: auto;
+  height: 400px;
+  position: relative;
+  left: -450px;
+  top: 75px;
+}
+.first-section h1{
+  font-family: 'Beau Rivage', cursive;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 50px;
+  color:white;
+  word-spacing: 2px;
+  line-height: 1;
+  margin-top: 0px;
+}
+.first-section h2{
+  color:chocolate;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+.Exclusiveoffer p{
+  width: 100%;
+  text-align: center;
+  padding: 5px 0px;
+  margin-top: 0;
+  margin-bottom: 0;
+  background-color: rgb(233, 245, 65);
+  text-transform: uppercase;
+  font-size: x-small;
+ 
+}
+
+.nav{
+  display: flex;
+  padding: 5px;
+}
+.nav div{
+  flex: 1;
+}
+
+.nav-main-logo{
+  float: left;
+  position: relative;
+  left: 170px;
+}
+.nav-main-logo>a>img{
+  width: 170px;
+}
+.nav-button-container{
+  display: flex;
+  align-items: center;
+  position: relative;
+  left: 350px;
+}
+.nav-button-container>button{
+ background-color: #17e22d;
+ border-radius: 5px;
+ border: 1px black solid;
+ width: 175px;
+ height: 45px;
+}
+.nav-button-container>button>a{
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: 18px;
+  font-family: 'Space Grotesk', sans-serif;
+}
+.Disclaimer-container{
+  display: flex;
+  width: 500px;
+  height: 100px;
+  background-color:#c84e22;
+}
+.Disclaimer-text{
+  width: 80%;
+  border-left: none;
+  color: antiquewhite;
+  border: 1px solid black;
+  border-left: none;
+  padding: 5px;
+  border-radius: 0 5px 5px 0;
+}
+.Disclaimer-icon{
+  width: 20%;
+  border: 1px solid black;
+  border-radius: 5px 0 0 5px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.Disclaimer-icon img{
+  display: inline-block;
+  position: relative;
+  left: 20px;
+}
+.Disclaimer-text h1{
+  font-size: medium;
+  text-transform: uppercase;
+  color: #cfcc0b;
+  margin-bottom: 0;
+}
+.Disclaimer-text p{
+  font-size: small;
+  margin-top: 7px;
+  text-align:left;
+}
+#pooping-btn{
+  animation: zoom-in-zoom-out 2s ease-out infinite;
+  background-color: #17e22d;
+  border-radius: 5px;
+  border: 1px black solid;
+  width: 400px;
+  height: 45px;
+  font-size: larger;
+  font-weight: bold;
+  position: relative;
+  left: 40px;
+}
+@keyframes zoom-in-zoom-out {
+  0% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(1.1, 1.1);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+.second-section p span{
+    display: inline-block;
+    vertical-align: middle;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 1px solid #f7ac18;
+    text-align: center;
+    font-size: 22px;
+    margin-right: 5px;
+    color:#f7ac18;
+}
+.second-section p{
+  font-size: 20px;
+  color:#f7ac18;
+  margin-left: 10px;
+}
