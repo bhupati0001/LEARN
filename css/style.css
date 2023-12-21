@@ -270,7 +270,8 @@ p.img-banner{
 }
 .img-banner img{
   display: inline-block;
-  width: 120px;
+  width: auto;
+  height: 30px;
 }
 .img-banner{
   display: flex;
