@@ -387,3 +387,67 @@ div.body-third{
   font-size: larger;
   margin-top: 0;
 }
+#body-fourth{
+  background-image: url(../img/s2-product.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.body-fourth{
+  margin-top: 40px;
+  display: flex;
+  justify-content:space-evenly;
+  height: 400px;
+
+}
+.body-fourth div{
+  margin-left: 100px;
+  width: 450px;
+}
+.body-fourth div h2{
+  position: relative;
+  top:-100px;
+  left: 30px;
+  color:white;
+  width: 300px;
+  margin-bottom: 0;
+}
+.body-fourth div p{
+  position: relative;
+  top:-80px;
+  left: 20px;
+  width: 300px;
+  font-size: 17px;
+}
+.body-fourth div img{
+  width: 320px;
+}
+
+.body-fourth-2{
+  margin-top: 40px;
+  display: flex;
+  justify-content:space-evenly;
+  height: 400px;
+
+}
+.body-fourth-2 div{
+  margin-left: 100px;
+  width: 450px;
+}
+.body-fourth-2 div h2{
+  position: relative;
+  top:-100px;
+  left: 30px;
+  color:white;
+  width: 300px;
+  margin-bottom: 0;
+}
+.body-fourth-2 div p{
+  position: relative;
+  top:-80px;
+  left: 20px;
+  width: 300px;
+  font-size: 17px;
+}
+.body-fourth-2 div img{
+  width: 320px;
+}
