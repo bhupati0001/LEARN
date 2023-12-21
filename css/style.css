@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Open+Sans&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Kalnia:wght@500&family=Open+Sans&family=Shadows+Into+Light&family=Space+Grotesk&display=swap');
 
 
 body{
@@ -17,6 +17,7 @@ body{
     background-image: url(../img/banner-background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -261,9 +262,11 @@ ul.moving-bar-items>li::before{
 .body-seconddiv{
   box-shadow: 0 10px 10px rgb(65, 60, 60);
 } 
-.body-second div p{
+p.img-banner{
   text-transform: uppercase;
   text-align: center;
+  margin: 20px 0;
+  font-weight: bold;
 }
 .img-banner img{
   display: inline-block;
@@ -273,5 +276,33 @@ ul.moving-bar-items>li::before{
   display: flex;
   align-items: center;
   justify-content: space-around;
+  margin: 0 100px;
 }
-
+.body-second-container{
+  display: flex;
+  margin-top: 50px;
+}
+div.body-second-container-img{
+  background-image: url(../img/s1-hero.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 500px;
+  height: 700px;
+  overflow: hidden;
+  margin-left: 110px;
+}
+.body-second-container-text{
+flex-grow: 2;
+margin-left: 40px;
+text-align: left;
+}
+.body-second-container-text div h2{
+  color:#c84e22
+}
+.body-second-container-text div h2+h1{
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 50px;
+  width: 700px;
+  line-height: 1;
+}
