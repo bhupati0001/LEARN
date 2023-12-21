@@ -500,3 +500,20 @@ div.body-third{
 .body-fourth-2 div span.icon{
   right: 345px;
 }
+.body-fifth{
+text-align: center;
+}
+.body-fifth-ul-list ul li{
+  background-image: url(../img/button_list-tick-black.png);
+  background-repeat: no-repeat;
+  background-size: 15px;
+  padding-left: 20px;
+  display: inline-block;
+  margin-right:20px;;
+  color: black;
+  font-size: small;
+}
+div.pooping-btn-container.body-fifth{
+  position: relative;
+  right: 30px;
+}
