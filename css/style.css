@@ -421,6 +421,30 @@ div.body-third{
 .body-fourth div img{
   width: 320px;
 }
+.body-fourth div span{
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  border: 1px orangered solid;
+  border-radius: 50px;
+  position: relative;
+  right: 27px;
+  bottom: 75px;
+  background-color: white;
+}
+.body-fourth div span img{
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  left: 5px;
+  top:5px;
+}
+.body-fourth div span.icon{
+  right: 349px;
+}
+
+
 
 .body-fourth-2{
   margin-top: 40px;
@@ -450,4 +474,27 @@ div.body-third{
 }
 .body-fourth-2 div img{
   width: 320px;
+}
+
+.body-fourth-2 div span{
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  border: 1px orangered solid;
+  border-radius: 50px;
+  position: relative;
+  right: 27px;
+  bottom: 75px;
+  background-color: white;
+}
+.body-fourth-2 div span img{
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  left: 5px;
+  top:5px;
+}
+.body-fourth-2 div span.icon{
+  right: 345px;
 }
