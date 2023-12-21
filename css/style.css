@@ -1,6 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Kalnia:wght@500&family=Open+Sans&family=Shadows+Into+Light&family=Space+Grotesk&display=swap');
-
-
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Kalnia:wght@500&family=Open+Sans&family=Patrick+Hand+SC&family=Shadows+Into+Light&family=Space+Grotesk&display=swap');
 body{
   margin:0;
   padding: 0;
@@ -345,4 +343,47 @@ text-align: left;
 }
 .body-second-container-text-points p:last-child{
   border-left: none;
+}
+.third-section.black ul{
+  display: flex;
+}
+.third-section.black ul li{
+  background-image: url(../img/button_list-tick-black.png);
+  background-repeat: no-repeat;
+  background-size: 15px;
+
+  padding-left: 20px;
+  display: inline-block;
+  margin-right: 20px;
+  color: black;
+  font-size: small;
+}
+div.body-third{
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}
+.body-third{
+  display: flex;
+  flex-direction: column;
+}
+.body-third p:first-of-type{
+  color:#c84e22;
+  font-size: 25px;
+  margin-top: 50px;
+  margin-bottom: 0;
+  text-transform: capitalize;
+}
+.body-third h1{
+  font-family: 'Space Grotesk', sans-serif;
+  text-transform: capitalize;
+  font-size: 40px;
+  width: 600px;
+  margin-top: 0;
+  line-height: 1;
+}
+.body-third p:last-of-type{
+  width: 790px;
+  font-size: larger;
+  margin-top: 0;
 }
