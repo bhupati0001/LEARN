@@ -426,11 +426,8 @@ div.body-third{
   height: 50px;
   display: inline-block;
   border: 1px orangered solid;
-<<<<<<< HEAD
-=======
   outline: solid white 5px;
->>>>>>> e47766e (icons are added to the body-fourth-flexed imgs)
-  border-radius: 50px;
+  border-radius: 50%;
   position: relative;
   right: 27px;
   bottom: 75px;
@@ -485,11 +482,8 @@ div.body-third{
   height: 50px;
   display: inline-block;
   border: 1px orangered solid;
-<<<<<<< HEAD
-=======
   outline: solid white 5px;
->>>>>>> e47766e (icons are added to the body-fourth-flexed imgs)
-  border-radius: 50px;
+  border-radius: 50%;
   position: relative;
   right: 27px;
   bottom: 75px;
