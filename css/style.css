@@ -80,9 +80,8 @@ ul.moving-bar-items>li::before{
   top: 75px;
 }
 .first-section h1{
-  font-family: 'Beau Rivage', cursive;
-  font-family: 'Shadows Into Light', cursive;
-  font-size: 50px;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 48px;
   color:white;
   word-spacing: 2px;
   line-height: 1;
